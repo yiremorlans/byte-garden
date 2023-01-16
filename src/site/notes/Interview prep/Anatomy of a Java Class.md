@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/interview-prep/anatomy-of-a-java-class/"}
 ---
 
-## Java anatomy of a class, access modifiers, and keywords
+# Java anatomy of a class, access modifiers, and keywords
 
 {{date}}
 ```java
