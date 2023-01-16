@@ -7,6 +7,7 @@
 ---
 
 {{date}}
+
 ```java
 public class Main { 
 // Static method 
