@@ -4,6 +4,7 @@
 
 
 
+
 ![Digital flowers](https://dodo.ac/np/images/8/8e/Flowers_NH_Artwork.png)
 # Byte Garden: A Digital Garden for Software Development
 
@@ -14,3 +15,6 @@ Here you'll find digital notes, coding concepts, full stack development resource
 
 - [[Interview prep/Anatomy of a Java Class\|Anatomy of a Java Class]]
 - [[Interview prep/Differences in Java and Javascript\|Differences in Java and Javascript]]
+
+
+[My LinkFree](https://linkfree.eddiehub.io/yiremorlans)
