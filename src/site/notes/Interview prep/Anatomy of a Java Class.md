@@ -23,6 +23,7 @@ public class Main {
 		} 
 	}
 ```
+
 This code defines a Java class called "Main" with three methods: "myStaticMethod", "myPublicMethod", and "main".
 
 -   The "myStaticMethod" method is defined as static, which means it can be called without creating an object of the "Main" class. This is demonstrated in the "main" method, where "myStaticMethod()" is called directly.
