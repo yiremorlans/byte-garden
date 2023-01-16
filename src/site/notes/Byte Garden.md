@@ -17,4 +17,5 @@ Here you'll find digital notes, coding concepts, full stack development resource
 - [[Interview prep/Differences in Java and Javascript\|Differences in Java and Javascript]]
 
 
+![EddieHub Rabbit Mascor](https://linkfree.eddiehub.io/_next/image?url=%2Flogo192.png&w=64&q=75)
 [My LinkFree](https://linkfree.eddiehub.io/yiremorlans)
