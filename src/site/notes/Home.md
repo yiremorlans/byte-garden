@@ -22,7 +22,6 @@ Here you'll find digital notes, coding concepts, full stack development resource
 
 ----
 
-### Follow me:
 
 [![Twitter](https://img.shields.io/static/v1?label=|&message=Twitter&color=01a9f4&style=social&logo=twitter&logo-color=black)](https://twitter.com/xenaaMorph)
 [![GitHub](https://img.shields.io/static/v1?label=|&message=GitHub&color=01a9f4&style=social&logo=github&logo-color=black)](https://github.com/yiremorlans)
