@@ -3,6 +3,8 @@
 ---
 
 ## Java anatomy of a class, access modifiers, and keywords
+
+{{date}}
 ```java
 public class Main { 
 // Static method 
