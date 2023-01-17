@@ -36,10 +36,10 @@ Here's an example of how to create and add to an ArrayList in Java:
 ```java
 ArrayList<Integer> myArrayList = new ArrayList<Integer>();
 
-        myArrayList.add(1);
-        myArrayList.add(2);
-        myArrayList.add(3);
-        myArrayList.add(4);
+myArrayList.add(1);
+myArrayList.add(2);
+myArrayList.add(3);
+myArrayList.add(4);
 ```
 
 This creates an empty ArrayList that can hold integers.
