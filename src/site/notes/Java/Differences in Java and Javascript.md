@@ -3,7 +3,7 @@
 ---
 
 
-# Key concept differences in Java and Javascript
+## Key concept differences in Java and Javascript
 
 ---
 
