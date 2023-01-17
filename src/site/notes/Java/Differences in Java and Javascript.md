@@ -7,7 +7,7 @@
 
 ---
 
-{{date}}
+01-14-2023
 
 One major difference is that Java is a compiled language, while JavaScript is an interpreted language. This means that Java code is compiled into machine code before it is executed, while JavaScript code is interpreted and executed directly by the browser or JavaScript engine.
 
