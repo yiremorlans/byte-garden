@@ -16,9 +16,11 @@
 Here you'll find digital notes, coding concepts, full stack development resources, and information about the latest software trends. Dive in and explore the world of coding!
 
 
-- [[Java/Anatomy of a Java Class\|Anatomy of a Java Class]]
-- [[Java/Differences in Java and JavaScript\|Differences in Java and JavaScript]]
-- [[Java/Arrays and ArrayLists\|Arrays and ArrayLists]]
+| Posts      | Updated | Notes     | Updated |
+| :---       |    ---: | :---      |    ---: |
+| [[Java/Anatomy of a Java Class\|Anatomy of a Java Class]] |01-17-2023| [[Application Design\|Application Design]]| 01-17-2023 |
+| [[Java/Differences in Java and JavaScript\|Differences in Java and JavaScript]]|01-17-2023|[[AWS Overview\|AWS Overview]]|01-17-2023|
+| [[Java/Arrays and ArrayLists\|Arrays and ArrayLists]] |01-17-2023|        |           |
 
 
 ----
