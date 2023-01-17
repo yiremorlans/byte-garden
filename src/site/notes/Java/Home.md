@@ -6,12 +6,13 @@
 
 
 ![Digital flowers](https://dodo.ac/np/images/8/8e/Flowers_NH_Artwork.png)
-# Byte Garden: A Digital Garden for Software Development
+# A Digital Garden for Software Development
 
 ---
 
 
 ## Welcome to Byte Garden, a place for all things related to software development. 
+
 
 Here you'll find digital notes, coding concepts, full stack development resources, and information about the latest software trends. Dive in and explore the world of coding!
 
@@ -25,6 +26,12 @@ Here you'll find digital notes, coding concepts, full stack development resource
 
 ----
 
+### About me
+
+- I'm a full-stack software engineer based in Florida.
+- I :❤️: Pokémon and art house films, especially from [A24](https://a24films.com/)
+- When I'm not coding, I'm hiking with my dog :🌲::🐕:
+- Reach out through my socials :👇:
 
 [![Twitter](https://img.shields.io/static/v1?label=|&message=Twitter&color=01a9f4&style=social&logo=twitter&logo-color=black)](https://twitter.com/xenaaMorph)
 [![GitHub](https://img.shields.io/static/v1?label=|&message=GitHub&color=01a9f4&style=social&logo=github&logo-color=black)](https://github.com/yiremorlans)
