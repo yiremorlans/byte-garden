@@ -6,6 +6,8 @@
 # Arrays and ArrayLists
 
 ---
+## Adding, modifying, and removing elements
+
 
 01-16-2023
 
