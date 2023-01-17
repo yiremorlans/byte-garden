@@ -17,7 +17,7 @@ Here you'll find digital notes, coding concepts, full stack development resource
 
 
 - [[Java/Anatomy of a Java Class\|Anatomy of a Java Class]]
-- [[Java/Differences in Java and Javascript\|Differences in Java and Javascript]]
+- [[Java/Differences in Java and JavaScript\|Differences in Java and JavaScript]]
 - [[Java/Arrays and ArrayLists\|Arrays and ArrayLists]]
 
 
