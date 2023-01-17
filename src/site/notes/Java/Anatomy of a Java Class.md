@@ -6,7 +6,7 @@
 
 ---
 
-{{date}}
+01-16-2023
 
 ```java
 public class Main { 
