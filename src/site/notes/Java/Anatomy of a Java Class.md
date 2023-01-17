@@ -2,9 +2,12 @@
 {"dg-publish":true,"permalink":"/java/anatomy-of-a-java-class/"}
 ---
 
-# Java anatomy of a class, access modifiers, and keywords
+# Java Classes
 
 ---
+
+## Java anatomy of a class, access modifiers, and keywords
+
 
 01-15-2023
 
@@ -37,7 +40,7 @@ This code defines a Java class called "Main" with three methods: "myStaticMethod
 
 -   The "main" method is the entry point of the program, where the program starts executing, it calls the static method myStaticMethod() which prints "Static methods can be called without creating objects" and creates an object of Main class and call the public method myPublicMethod() which prints "Public methods must be called by creating objects"
 
-## Acess Modifiers
+### Acess Modifiers
 
 In Java, access modifiers are keywords used to set the level of access to a class, method, or variable. There are four main access modifiers in Java:
 
