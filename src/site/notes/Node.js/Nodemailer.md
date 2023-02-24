@@ -12,7 +12,7 @@
 
 Nodemailer is a project that was started in 2010 when there was no easy option to send email messages, and today it is the solution most Node.js users turn to by default.
 
-with Nodemailer, you can use a number of supported email services to send emails. Nodemailer supports popular email services such as Gmail, Outlook.com, Yahoo Mail, and many others. It also supports custom SMTP servers, sendmail, and Amazon SES (Simple Email Service).
+With Nodemailer, you can use a number of supported email services to send emails. Nodemailer supports popular email services such as Gmail, Outlook.com, Yahoo Mail, and many others. It also supports custom SMTP servers, sendmail, and Amazon SES (Simple Email Service).
 
 To use Nodemailer with a specific [email service](https://nodemailer.com/smtp/well-known/), you will need to provide the necessary credentials and settings for that service. 
 
