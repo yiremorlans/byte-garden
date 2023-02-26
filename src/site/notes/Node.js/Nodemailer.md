@@ -16,9 +16,9 @@ With Nodemailer, you can use a number of supported email services to send emails
 
 To use Nodemailer with a specific [email service](https://nodemailer.com/smtp/well-known/), you will need to provide the necessary credentials and settings for that service. 
 
-:bulb:  Some services like [iCloud](https://support.apple.com/en-us/HT202304) will also require SSL and SMTP authentication. This typically includes the SMTP server address, port number, authentication method, username, and password.
+***Some services like [iCloud](https://support.apple.com/en-us/HT202304) will also require SSL and SMTP authentication. This typically includes the SMTP server address, port number, authentication method, username, and password.***
 
-
+---
 
 The Nodemailer documentation is very well organized and easy to follow, making it simple for developers to learn how to use and implement the module. The documentation includes a comprehensive Getting Started guide that walks through the basics of setting up a transport object and sending emails.
 
