@@ -5,7 +5,7 @@
 
 
 
-![Digital flowers](https://dodo.ac/np/images/8/8e/Flowers_NH_Artwork.png)
+![Digital flowers](https://dodo.ac/np/images/8/8e/Flowers_NH_Artwork.png)![Digital flowers](https://dodo.ac/np/images/8/84/Flowers_NH_Artwork_2.png)
 # A Digital Garden for Software Development
 
 ---
