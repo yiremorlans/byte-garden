@@ -91,7 +91,7 @@ The space complexity implementation provided is O(n), where n is the number of e
 
 ## Queues
 
-A queue is more like a line of people waiting for a ride at an theme park. The first person to get in line is the first person to get on the ride, and new people join the end of the line. This is known as FIFO (First In, First Out) - the first person in the line is the first person to be served.
+Picture a queue as a line of people waiting for a ride at an theme park.(*my first thought as someone who grew up playing Roller Coaster Tycoon on my PC*) The first person to get in line is the first person to get on the ride, and new people join the end of the line. This is known as FIFO (First In, First Out) - the first person in the line is the first person to be served.
 
 This code implements a simple queue data structure in JavaScript:
 
