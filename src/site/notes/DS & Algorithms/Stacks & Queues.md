@@ -9,11 +9,13 @@
 
 03-02-2023
 
+A stack and a [queue](#Queues) are two data structures used to store and organize data in computer programs. They  are widely used in computer science and programming, and they have many real-life applications you might already be familiar with! 
+
+They are used in browsers for storing the history of visited web pages, in text editors for undo/redo functionality, and in operating systems for managing memory. Queues, on the other hand, are used in many everyday applications, such as ordering food at a restaurant or boarding a plane, where the first person in line is served first. They are also used in computer networks for packet routing, in printers for job scheduling, and in music streaming services for managing song queues.
+
 ## Stacks
 
-A stack and a queue are two data structures used to store and organize data in computer programs.
-
-A stack is like a pile of plates in a cafeteria. You add new plates to the top of the pile, and when you need to remove a plate, you take the top one off first. This is known as LIFO (Last In, First Out) - the last plate added to the pile is the first one that can be removed.
+Imagine a stack is like a pile of plates in a cafeteria. You add new plates to the top of the pile, and when you need to remove a plate, you take the top one off first. This is known as LIFO (Last In, First Out) - the last plate added to the pile is the first one that can be removed.
 
 This is a class in JavaScript that implements a stack data structure using an object for storage. The methods use the `storage` object and the `size` property to keep track of the elements in the stack.
 
