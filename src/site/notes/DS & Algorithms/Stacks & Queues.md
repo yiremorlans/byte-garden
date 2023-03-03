@@ -30,7 +30,6 @@ class Stack {
 		// Increment size and add element to storage at new size index
 		this.size++
 		this.storage[this.size] = element
-		// Log message indicating that element has been added to stack
 		console.log(`Added ${element} to storage!`)
 	}
 
@@ -40,14 +39,12 @@ class Stack {
 		let removed = this.storage[this.size]
 		delete this.storage[this.size]
 		this.size--
-		// Log message indicating that element has been removed from stack and return removed element
 		console.log(`Removed ${removed} from storage!`)
 		return removed	
 	}
 
 	// Method that returns the top element of the stack
 	peek(){
-		// Log message indicating which element is on top of the stack and return the element
 		console.log(`${this.storage[this.size]} is on top of the stack!`)
 		return this.storage[this.size]
 	}
@@ -61,13 +58,11 @@ class Stack {
 				return this.storage[item]
 			}
 		}
-		// Log message indicating that element was not found in the stack and return undefined
 		console.log(`${element} does not exist in the storage!`)
 	}
 
 	// Method that checks if the stack is empty
 	isEmpty(){
-		// Log message indicating whether the stack is empty or not and return true if size is 0
 		console.log(this.size === 0)
 		return this.size === 0
 	}
