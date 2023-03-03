@@ -9,6 +9,7 @@
 
 ## What the heck is `this`?
 
+
 02-28-2023
 
 JavaScript’s `this` keyword is a source of confusion for new and experienced developers alike. It can be frustrating if, for some reason, `this` doesn’t point to the context that was intended.
