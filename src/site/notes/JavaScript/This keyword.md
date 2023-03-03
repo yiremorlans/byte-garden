@@ -3,6 +3,10 @@
 ---
 
 
+# JavaScript's `this` keyword in various contexts
+
+---
+
 ## What the heck is `this`?
 
 02-28-2023
