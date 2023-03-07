@@ -30,6 +30,7 @@ console.log(arr); // ['Dog', 2, '3', true, null, 6]
 // O(n) linear searching method
 console.log(arr.indexOf('3')) // 2
 ```
+<br>
 
 ### Time/Space Complexity
 
