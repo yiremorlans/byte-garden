@@ -36,9 +36,13 @@ console.log(arr.indexOf('3')) // 2
 
 ---
 
-Generally, accessing an element by index in an array is a constant-time operation with a time complexity of O(1), because the index can be used to calculate the memory address of the element directly. However, accessing an element in an array by value requires a linear search, which can have a time complexity of O(n) in the worst case, where n is the number of elements in the array.
+- Generally, accessing an element by index in an array is a constant-time operation with a time complexity of O(1), because the index can be used to calculate the memory address of the element directly. 
+- `push()` - O(1), assuming there is available space in the array. However, if the array needs to be resized because there is not enough memory, the time complexity could be O(n), where n is the number of elements in the array before resizing.
+- `indexOf()` - requires a linear search, which can have a time complexity of O(n) in the worst case, where n is the number of elements in the array.
+- `unshift()` - O(n), all the elements in the array need to be moved to make room for the new element. 
+- `shift()` - O(n), the entire array needs to shift one over to occupy the now empty space in memory. 
 
-When an element is added to the beginning of an array using the unshift method, the entire array needs to be shifted to make room for the new element. This can have a time complexity of O(n) in the worst case, because all the elements in the array need to be moved. Additionally, if there is not enough free space at the beginning of the array to accommodate the new element, the entire array may need to be relocated to a different spot in memory. This can have a space complexity of O(n), where n is the number of elements in the array, because a new block of memory must be allocated and the existing elements must be copied over to the new location.
+ Additionally, if there is not enough free space at the beginning of the array to accommodate the new element, the entire array may need to be relocated to a different spot in memory. This can have a space complexity of O(n), where n is the number of elements in the array, because a new block of memory must be allocated and the existing elements must be copied over to the new location.
 
 ---
 
