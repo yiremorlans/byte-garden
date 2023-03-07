@@ -75,6 +75,8 @@ class Stack {
 
 ### Time/Space Complexity
 
+---
+
 The big O notation for the stack implementation provided in the code is:
 
 -   `push`: O(1) - adding an element to the top of the stack takes a constant amount of time, regardless of the size of the stack.
