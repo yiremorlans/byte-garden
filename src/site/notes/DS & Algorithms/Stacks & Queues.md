@@ -135,6 +135,8 @@ class Queue {
 
 ### Time/Space Complexity
 
+---
+
 The time complexity of the `enqueue` and `dequeue` methods in this implementation of a queue is O(1) or constant time. This is because both operations only require accessing and modifying the first or last element of the object, which can be done in constant time regardless of the size of the queue.
 
 The space complexity of the queue implementation is O(n), where n is the number of elements in the queue and the size of the object grows with the number of elements. Therefore, the space required to store the queue elements increases linearly.
