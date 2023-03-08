@@ -24,7 +24,7 @@ Here you'll find digital notes, coding concepts, full stack development resource
 | [[Java/Anatomy of a Java Class\|Anatomy of a Java Class]] |01-17-2023| [[JavaScript/This keyword\|This keyword]]| 02-28-2023 |
 | [[Java/Differences in Java and JavaScript\|Differences in Java and JavaScript]]|01-17-2023|[[Node.js/Nodemailer\|Nodemailer]]|02-24-2023|
 | [[Java/Arrays and ArrayLists\|Arrays and ArrayLists]] |01-17-2023|[[React/React Props and Child Components\|React Props and Child Components]]|02-25-2023| 
-| [[DSA/Linked Lists\|Linked Lists]]   |03-07-2023|[[DSA/Stacks & Queues\|Stacks & Queues]] |03-02-2023|
+| [[DSA/Linked Lists\|Linked Lists]]   |03-07-2023|[[DSA/Stacks and Queues\|Stacks and Queues]] |03-02-2023|
 
 
 
