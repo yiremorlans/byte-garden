@@ -44,7 +44,7 @@ function ModalButton() {
 }
 ```
 
-> An event handler() is supposed to be either a _function_ or a _function reference_. A _function_ _call_ will not work here.
+> An event handler is supposed to be either a _function_ or a _function reference_. A _function_ _call_ will not work here.
 
 - When the "Open Modal" button is clicked, `handleOpenModal` function is called and updates the `showModal` state data by calling `setShowModal(true)`. This causes the modal dialog box to be displayed, since `showModal` is now `true`.
 
