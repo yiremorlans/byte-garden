@@ -29,7 +29,7 @@ function ModalButton() {
 	return (
 		<div> {/* always visible */}
 			<button onClick={handleOpenModal}>Open Modal</button>
-			{/* expression must evaluate to true && true to show */}
+	{/* expression must evaluate to true && true to show */}
 			{showModal && (
 				<> 
 					<div>
