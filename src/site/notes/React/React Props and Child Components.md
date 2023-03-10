@@ -13,7 +13,7 @@ React props are a way to pass data and functionality from one component to anoth
 When you create a component in React, you can define its props by adding attributes to the component tag. In this code, props are being passed to three different components: Header, Content, and Total.
 
 ```jsx
-// Necessary imports in order to render the components inside of App.jsx
+{/* Necessary imports in order to render the components inside of App.jsx */} 
 import Header from "./components/Header"
 import Content from "./components/Content"
 import Total from "./components/Total"
@@ -58,14 +58,14 @@ const Header = ({ course }) => {
 		</header>
 	)
 }
-// Export allows the Header component to be rendered in App.jsx
+{/* Export allows the Header component to be rendered in App.jsx */}
 export default Header
 ```
 
 The Content component is receiving a prop called "courseMaterial", which is an array of parts from the course object. This prop is also passed to Content as an attribute:
 
 ```jsx
-// To render the Part component
+{/* To render the Part component */} 
 import Part from "./Part"
 
 const Content = ({ courseMaterial }) => {
@@ -83,14 +83,14 @@ export default Content
 ```jsx
 const Part = ({ name, exercises } ) => {
 	return (
-// A fragment <></> is a common pattern for a component to return multiple elements. Fragments let you group a list of children without adding extra nodes to the DOM like a <div>.
+{/* A fragment <></> is a common pattern for a component to return multiple elements. Fragments let you group a list of children without adding extra nodes to the DOM like a <div> */} 
 		<>
 			<h3>{ name }</h3>
 			<p>{ exercises }</p>
 		</>
 	)
 }
-// exporting the grandchild component to be used inside the parent component Content.jsx and then inside App.jsx 
+{/* exporting the grandchild component to be used inside the parent component Content.jsx and then inside App.jsx */} 
 export default Part
 ```
 
@@ -98,7 +98,7 @@ Finally, the Total component is receiving a prop called "exercises", which is th
 
 ```jsx
 const Total = ({ exercises }) => {
-// Javascript methods can be performed inside components to transform the data passed from the props.
+{/* Javascript methods can be performed inside components to transform the data passed from the props */}
 	return (
 		<h3>Total # of exercises: { exercises.map(part => part.exercises).reduce((a, b) => a + b, 0) }</h3>
 	)
