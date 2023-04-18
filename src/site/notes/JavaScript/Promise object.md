@@ -102,3 +102,19 @@ fetchData();
 So, if you want to get the first resolved Promise from an array of promises, and you're only interested in resolving promises, you should use `Promise.any()`. If you want to get the first settled `Promise`, regardless of whether it resolves or rejects, you should use `Promise.race()`.
 
 For example, if you're making multiple HTTP requests and only care about the response from the first successful request, you would use `Promise.any()`. However, if you need to handle errors and want to stop further processing when the first error occurs, you would use `Promise.race()`.
+
+### `Promise` object built-in methods
+
+In addition to `Promise.all()`, `Promise.race()`, and `Promise.any()`, there are several other built-in methods for handling promises in JavaScript.
+
+-   `Promise.allSettled()`: This method returns a `Promise` that resolves when all the promises in an array have settled, meaning they have either resolved or rejected. The returned `Promise` resolves with an array of objects representing the fulfillment value or rejection reason of each `Promise`.
+    
+-   `Promise.resolve()`: This method returns a `Promise` that is resolved with the given value. This is useful when you want to convert a non-Promise value into a `Promise`.
+    
+-   `Promise.reject()`: This method returns a `Promise` that is rejected with the given reason. This is useful when you want to create a rejected `Promise` with a specific reason.
+    
+-   `Promise.prototype.catch()`: This method is used to handle errors that occur in a `Promise` chain. It registers a callback to be called if the Promise is rejected, and returns a new `Promise` that resolves with the return value of the callback.
+    
+-   `Promise.prototype.finally()`: This method is used to perform an action regardless of whether the `Promise` is resolved or rejected. It registers a callback to be called when the Promise is settled, and returns a new `Promise` that resolves with the original promise's value or rejection reason.
+
+I encourage you to check out the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) for these methods to learn more about their use cases and see examples of how they can be used in practice.
