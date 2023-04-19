@@ -35,7 +35,7 @@ Using async/await syntax allows us to write the same functionality in a more con
 
 Here are built-in JavaScript methods to handle promises in different contexts:
 
-1. `Promise.all()`: waits for all fulfillments (or the first rejection): 
+1. **`Promise.all()`** waits for all fulfillments (or the first rejection): 
 
 ```javascript
 async function fetchData() {
@@ -56,7 +56,7 @@ fetchData();
 
 Use `Promise.all()` to resolve multiple promises when there are multiple related asynchronous tasks that the overall code relies on to work successfully — all of whom we want to fulfill before the code execution continues. It will reject immediately upon **any** of the input promises rejecting.
 
-2. The **`Promise.any()`** static method takes an iterable of promises as input and returns a **single** `Promise`:
+2. **`Promise.any()`** static method takes an iterable of promises as input and returns a **single** `Promise`:
 
 ```javascript
 async function fetchData() {
@@ -76,7 +76,7 @@ fetchData();
 Here we're using `Promise.any()` to resolve the first HTTP request that doesn't reject, and then using `await` to parse the response data using `.json()`, and log the data to the console. It will only reject if all the promises in the array are rejected.
 
 
-3. The **`Promise.race()`** static method also takes an iterable (array) of promises and returns a single `Promise`:
+3. **`Promise.race()`** static method also takes an iterable (array) of promises and returns a single `Promise`:
 
 ```javascript
 async function fetchData() {
