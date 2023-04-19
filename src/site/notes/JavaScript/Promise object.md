@@ -14,7 +14,7 @@
 A `Promise` is an object that represents a value that might not be available yet, but will be at some point in the future. A `Promise` can be in one of three states: "pending" (the initial state, before the `Promise` has resolved or been rejected), "fulfilled" (meaning the operation completed successfully and returned a value), or "rejected" (meaning the operation failed and returned an error).
 
 ```javascript
-	async function fetchData() {
+async function fetchData() {
   try {
     const response = await fetch('https://jsonplaceholder.typicode.com/todos/1');
     if (response.ok) {
